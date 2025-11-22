@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from "react";
 import { MessageSquare, X, Send, Bot } from "lucide-react";
-import { useTheme } from "next-themes";
 
 type Message = {
     role: "user" | "assistant";
@@ -20,7 +19,6 @@ export function Chatbot() {
     const [input, setInput] = useState("");
     const [isTyping, setIsTyping] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
-    const { theme } = useTheme();
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -35,7 +33,7 @@ export function Chatbot() {
 
         // Personal Info
         if (lowerQuestion.includes("who") || lowerQuestion.includes("about") || lowerQuestion.includes("introduce")) {
-            return "Rahul Arora is a BTech AI/ML student from Chandigarh, India. He's a full-stack developer passionate about building innovative web applications using modern technologies like Next.js, TypeScript, React, and Node.js. He's actively learning GenAI and DevOps while participating in tech events and hackathons.";
+            return "Rahul is a BTech AI/ML student from Chandigarh, India. He&apos;s a full-stack developer passionate about building innovative web applications using modern technologies like Next.js, TypeScript, React, and Node.js. He&apos;s actively learning GenAI and DevOps while participating in tech events and hackathons.";
         }
 
         // Education
@@ -124,7 +122,7 @@ export function Chatbot() {
                             <Bot className="w-6 h-6 text-purple-600" />
                         </div>
                         <div className="flex-1">
-                            <h3 className="text-white font-semibold">Rahul's AI Assistant</h3>
+                            <h3 className="text-white font-semibold">Rahul&apos;s AI Assistant</h3>
                             <p className="text-xs text-white/80">Ask me anything about Rahul!</p>
                         </div>
                     </div>

@@ -52,11 +52,9 @@ export function SpotlightCard({
   });
   const [opacity, setOpacity] = useState(0);
   const [hovered, setHovered] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
 
   useEffect(() => {
-    setMounted(true);
     if (initialHovered) {
       setOpacity(1);
       setHovered(true);

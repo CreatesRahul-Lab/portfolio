@@ -20,7 +20,7 @@ export function IntroSection() {
     const tl = gsap.timeline({ repeat: -1 });
 
     // Type out each character
-    text.split("").forEach((char, index) => {
+    text.split("").forEach((char) => {
       tl.to(typeTextElement, {
         duration: 0.05,
         onStart: () => {

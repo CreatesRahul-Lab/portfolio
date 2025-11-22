@@ -10,7 +10,6 @@ export function Preloader() {
 
     useEffect(() => {
         const greetings = ["Hello", "नमस्ते", "Hola", "Hallo"];
-        let currentIndex = 0;
 
         const tl = gsap.timeline({
             onComplete: () => {
@@ -24,7 +23,7 @@ export function Preloader() {
         });
 
         // Animate each greeting
-        greetings.forEach((greeting, index) => {
+        greetings.forEach((greeting) => {
             tl.to(textRef.current, {
                 duration: 0.5,
                 opacity: 1,

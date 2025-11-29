@@ -1,4 +1,4 @@
-import Image from "next/image";
+// ...existing code...
 import Link from "next/link";
 import { CalendarRange, ExternalLink } from "lucide-react";
 import { SpotlightCard } from "@/components/ui/spotlight-card";

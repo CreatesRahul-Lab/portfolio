@@ -22,12 +22,11 @@ import {
   RiTailwindCssFill,
 } from "react-icons/ri";
 import { FiFigma } from "react-icons/fi";
-import { VscVscode } from "react-icons/vsc";
+// ...existing code...
 import { BiLogoPostgresql } from "react-icons/bi";
 import { Lightbulb } from "lucide-react";
 import {
   SiFramer,
-  SiRadixui,
   SiMui,
   SiAppwrite,
   SiGreensock,

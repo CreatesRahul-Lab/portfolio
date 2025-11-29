@@ -67,12 +67,12 @@ export function Chatbot() {
 
         // Contact
         if (lowerQuestion.includes("contact") || lowerQuestion.includes("email") || lowerQuestion.includes("reach")) {
-            return "You can reach Rahul at:\n📧 Email: rahul.arora@example.com\n🐦 Twitter: @rahularora\n💼 LinkedIn: linkedin.com/in/rahularora\n🐙 GitHub: github.com/rahularora\n\nHe typically responds within 1 hour!";
+            return "You can reach Rahul at:\n📧 Email: createsrahul@gmail.com\n🐦 X: @CreatesRahul\n💼 LinkedIn: linkedin.com/in/rahul-26b19a320/\n🐙 GitHub: github.com/CreatesRahul-Lab\n\nHe typically responds within 1 hour!";
         }
 
         // Social Media
         if (lowerQuestion.includes("social") || lowerQuestion.includes("linkedin") || lowerQuestion.includes("github") || lowerQuestion.includes("twitter")) {
-            return "Follow Rahul on:\n• GitHub: github.com/rahularora\n• LinkedIn: linkedin.com/in/rahularora\n• Twitter: @rahularora\n\nConnect with him to see his latest projects and updates!";
+            return "Follow Rahul on:\n• GitHub: github.com/CreatesRahul-Lab\n• LinkedIn: linkedin.com/in/rahul-26b19a320/\n• X: @CreatesRahul\n\nConnect with him to see his latest projects and updates!";
         }
 
         // Interests
@@ -107,15 +107,15 @@ export function Chatbot() {
             {/* Chatbot Toggle Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="fixed bottom-20 right-5 z-50 p-4 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg transition-all duration-300 hover:scale-110"
+                className="fixed bottom-5 right-5 z-50 p-3 sm:p-4 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg transition-all duration-300 hover:scale-110"
                 aria-label="Toggle chatbot"
             >
-                {isOpen ? <X className="w-6 h-6" /> : <MessageSquare className="w-6 h-6" />}
+                {isOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6" />}
             </button>
 
             {/* Chatbot Window */}
             {isOpen && (
-                <div className="fixed bottom-36 right-5 z-50 w-[380px] h-[500px] bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded-lg shadow-2xl flex flex-col">
+                <div className="fixed bottom-20 sm:bottom-24 right-2 sm:right-5 z-50 w-[calc(100vw-16px)] sm:w-[380px] h-[calc(100vh-100px)] sm:h-[500px] max-h-[600px] bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 rounded-lg shadow-2xl flex flex-col">
                     {/* Header */}
                     <div className="flex items-center gap-3 p-4 border-b border-gray-200 dark:border-gray-800 bg-gradient-to-r from-purple-600 to-blue-600 rounded-t-lg">
                         <div className="w-10 h-10 rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
@@ -136,8 +136,8 @@ export function Chatbot() {
                             >
                                 <div
                                     className={`max-w-[80%] rounded-lg p-3 ${message.role === "user"
-                                            ? "bg-gradient-to-r from-purple-600 to-blue-600 text-white"
-                                            : "bg-gray-100 dark:bg-[#141414] text-[#08090a] dark:text-slate-200"
+                                        ? "bg-gradient-to-r from-purple-600 to-blue-600 text-white"
+                                        : "bg-gray-100 dark:bg-[#141414] text-[#08090a] dark:text-slate-200"
                                         }`}
                                 >
                                     <p className="text-sm whitespace-pre-line">{message.content}</p>

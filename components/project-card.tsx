@@ -36,29 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       className="flex items-start overflow-hidden rounded-sm border border-gray-200/80 dark:border-gray-500/10 transition-all duration-300 ease-in-out hover:border-gray-900/30 dark:hover:border-gray-500/20 w-full cursor-pointer group"
     >
       <div className="flex sm:flex-row flex-col w-full">
-        <div className="relative h-[240px] w-full sm:w-[40%] overflow-hidden">
-          {project.imageUrl && (
-            <Image
-              src={project.imageUrl}
-              alt={project.title}
-              fill
-              className="object-cover p-1 rounded-sm"
-            />
-          )}
-          {project.videoUrl && (
-            <video
-              src={project.videoUrl}
-              autoPlay
-              muted
-              loop
-              preload="metadata"
-              playsInline
-              className="absolute top-0 left-0 w-full h-full object-cover p-1 rounded-sm"
-            />
-          )}
-        </div>
-
-        <div className="w-full sm:w-[60%] flex flex-col p-5 space-y-3">
+        <div className="w-full flex flex-col p-5 space-y-3">
           <h3 className="text-xl font-semibold text-[#737373] dark:text-slate-200/70 group-hover:text-[#08090a]/90 dark:group-hover:text-slate-200 duration-300 ease-in-out transition-colors">
             {project.title}
           </h3>

@@ -30,6 +30,7 @@ import {
   SiRadixui,
   SiMui,
   SiAppwrite,
+  SiGreensock,
 } from "react-icons/si";
 
 type Skill = {
@@ -60,15 +61,17 @@ const skillCategories: SkillCategory[] = [
       { name: "Next.js", icon: <IconBrandNextjs color="#ffffff" /> },
       { name: "TailwindCSS", icon: <RiTailwindCssFill color="#06B6D4" /> },
       { name: "Framer Motion", icon: <SiFramer color="#0055FF" /> },
+      { name: "GSAP", icon: <SiGreensock color="#88CE02" /> },
       { name: "shadcn/ui", icon: <span className="text-purple-500">⚡</span> },
       { name: "Material UI", icon: <SiMui color="#007FFF" /> },
-      { name: "Radix UI", icon: <SiRadixui color="#000000" /> },
+
     ],
   },
   {
     name: "Backend",
     skills: [
       { name: "Node.js", icon: <FaNodeJs color="#339933" /> },
+      { name: "TypeScript", icon: <SiTypescript color="#3178C6" /> },
       { name: "Express.js", icon: <SiExpress color="#ffffff" /> },
       { name: "PostgreSQL", icon: <BiLogoPostgresql color="#4169E1" /> },
       { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
@@ -81,12 +84,10 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Git", icon: <FaGitAlt color="#F05032" /> },
       { name: "GitHub", icon: <FaGithub color="#ffffff" /> },
-      { name: "VS Code", icon: <VscVscode color="#007ACC" /> },
       { name: "Figma", icon: <FiFigma color="#F24E1E" /> },
       { name: "Vercel", icon: <span className="text-black">▲</span> },
       { name: "Netlify", icon: <span className="text-green-500">▵</span> },
-      { name: "V0", icon: <span className="text-pink-500 font-bold">V0</span> },
-      { name: "Hoppscotch", icon: <span className="text-orange-500">⚡</span> },
+
     ],
   },
 ];

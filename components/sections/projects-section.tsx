@@ -21,6 +21,17 @@ type Project = {
 const projects: Project[] = [
   {
     id: "1",
+    title: "TechNerds - Technology Community Platform",
+    description:
+      "A modern technology community platform built with React and TypeScript. Features responsive design, interactive UI components, and seamless user experience for tech enthusiasts.",
+    imageUrl: "/projects/technerds.png",
+    videoUrl: "",
+    tags: ["React", "TypeScript", "Responsive Design"],
+    link: "https://technerds-five.vercel.app/",
+    date: "2025",
+  },
+  {
+    id: "2",
     title: "IK Gujral PTU Mohali - Attendance Management System",
     description:
       "A comprehensive attendance management system built with Next.js, TypeScript, MongoDB, and NextAuth.js. Features real-time attendance tracking, leave management, marks upload, and advanced analytics for students, teachers, and admins.",
@@ -31,7 +42,7 @@ const projects: Project[] = [
     date: "2025",
   },
   {
-    id: "2",
+    id: "3",
     title: "Vision AI",
     description:
       "An AI-powered image analysis tool that provides detailed descriptions of uploaded images using Google's Gemini AI. Built with React, Node.js, and modern UI components.",
@@ -39,11 +50,10 @@ const projects: Project[] = [
     videoUrl: "",
     tags: ["React", "Node.js", "Gemini AI", "Express"],
     link: "https://vision-ai-beta.vercel.app/",
-    githubLink: "https://github.com/rahularora/vision-ai",
     date: "2024",
   },
   {
-    id: "3",
+    id: "4",
     title: "Baatein - Real-Time Chat Application",
     description:
       "A full-stack real-time chat application with Socket.io, featuring private messaging, typing indicators, and online status. Built with React, Node.js, and MongoDB.",
@@ -51,11 +61,10 @@ const projects: Project[] = [
     videoUrl: "",
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
     link: "https://baatein-chat.vercel.app/",
-    githubLink: "https://github.com/rahularora/baatein-chat",
     date: "2024",
   },
   {
-    id: "4",
+    id: "5",
     title: "Nike Webpage Clone",
     description:
       "A pixel-perfect clone of Nike's landing page featuring responsive design, smooth animations, and modern UI/UX principles. Built with React and Tailwind CSS.",
@@ -63,11 +72,10 @@ const projects: Project[] = [
     videoUrl: "",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
     link: "https://nike-webpage-clone.vercel.app/",
-    githubLink: "https://github.com/rahularora/nike-webpage",
     date: "2024",
   },
   {
-    id: "5",
+    id: "6",
     title: "Mocha Muse - Coffee Shop Landing Page",
     description:
       "An elegant and modern landing page for a coffee shop with smooth animations, interactive menu, and beautiful design. Features product showcase and ordering interface.",
@@ -75,11 +83,10 @@ const projects: Project[] = [
     videoUrl: "",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
     link: "https://mocha-muse.vercel.app/",
-    githubLink: "https://github.com/rahularora/mocha-muse",
     date: "2024",
   },
   {
-    id: "6",
+    id: "7",
     title: "AI Serv - AI Services Platform",
     description:
       "A comprehensive platform showcasing various AI services and tools. Features modern UI, service cards, and interactive demonstrations of AI capabilities.",
@@ -87,31 +94,28 @@ const projects: Project[] = [
     videoUrl: "",
     tags: ["React", "Node.js", "AI Integration"],
     link: "https://ai-serv.vercel.app/",
-    githubLink: "https://github.com/rahularora/ai-serv",
-    date: "2024",
-  },
-  {
-    id: "7",
-    title: "Rekha Sutra - Cultural Heritage Platform",
-    description:
-      "A digital platform celebrating cultural heritage and traditional art forms. Features beautiful galleries, artist profiles, and educational content.",
-    imageUrl: "/projects/rekha-sutra.png",
-    videoUrl: "",
-    tags: ["React", "Tailwind CSS", "Cultural Heritage"],
-    link: "https://rekha-sutra.vercel.app/",
-    githubLink: "https://github.com/rahularora/rekha-sutra",
     date: "2024",
   },
   {
     id: "8",
-    title: "SkyGuard - Weather Monitoring App",
+    title: "Rekha Sutra - Palmistry Analysis Platform",
     description:
-      "A real-time weather monitoring application with detailed forecasts, interactive maps, and weather alerts. Built with modern APIs and responsive design.",
+      "An AI-powered palmistry analysis platform where users can upload photos of their hands to receive detailed palm readings. Features image analysis, cultural insights, and personalized interpretations based on traditional palmistry practices.",
+    imageUrl: "/projects/rekha-sutra.png",
+    videoUrl: "",
+    tags: ["React", "Tailwind CSS", "AI", "Image Analysis"],
+    link: "https://rekha-sutra.vercel.app/",
+    date: "2024",
+  },
+  {
+    id: "9",
+    title: "SkyGuard - Construction Company Website",
+    description:
+      "A professional landing page for a construction company showcasing services, projects, and company information. Features modern design, responsive layout, and user-friendly navigation.",
     imageUrl: "/projects/skyguard.png",
     videoUrl: "",
-    tags: ["React", "Weather API", "Geolocation"],
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
     link: "https://skyguard-weather.vercel.app/",
-    githubLink: "https://github.com/rahularora/skyguard",
     date: "2024",
   },
 ];

@@ -9,7 +9,7 @@ export function IntroSection() {
   const typeTextRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
-    const text = "A Full Stack Developer passionate about crafting seamless digital experiences";
+    const text = "Full Stack Developer crafting seamless digital experiences";
     const typeTextElement = typeTextRef.current;
 
     if (!typeTextElement) return;

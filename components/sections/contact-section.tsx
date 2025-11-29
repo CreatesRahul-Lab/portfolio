@@ -2,6 +2,7 @@ import { Mail, MessageSquare } from "lucide-react";
 import HeadingBadge from "@/components/heading-badge";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import ScrollFloat from "../ScrollFloat";
 
 export function ContactSection() {
   return (
@@ -15,10 +16,20 @@ export function ContactSection() {
           icon={<MessageSquare size={14} color="#EF4444" />}
         />
         <div className="space-y-2">
-          <h3 className="text-3xl font-semibold">
-            Let&apos;s{" "}
-            <span className="text-[#08090a] dark:text-slate-200">Connect</span>
-          </h3>
+          <div className="mb-2">
+            <ScrollFloat
+              scrollContainerRef={undefined}
+              animationDuration={1}
+              ease="back.inOut(2)"
+              scrollStart="center bottom+=50%"
+              scrollEnd="bottom bottom-=40%"
+              stagger={0.03}
+              containerClassName=""
+              textClassName="text-[#08090a] dark:text-slate-200"
+            >
+              {"Let's Connect"}
+            </ScrollFloat>
+          </div>
           <p className="text-[#737373] dark:text-[#A1A1AA] text-sm">
             I&apos;m always excited to collaborate on interesting projects or
             just have a great tech conversation!
@@ -43,16 +54,16 @@ export function ContactSection() {
               </h4>
 
               <a
-                href="mailto:rahul.arora@example.com"
+                href="mailto:createsrahul@gmail.com"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors"
               >
-                rahul.arora@example.com
+                createsrahul@gmail.com
                 <Mail className="w-4 h-4 mt-1" color="#2563EB" />
               </a>
 
               <div className="flex items-center justify-center gap-4 pt-4">
                 <a
-                  href="https://x.com/rahularora"
+                  href="https://x.com/CreatesRahul"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"
@@ -62,7 +73,7 @@ export function ContactSection() {
                 </a>
 
                 <a
-                  href="https://github.com/rahularora"
+                  href="https://github.com/CreatesRahul-Lab"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"
@@ -72,7 +83,7 @@ export function ContactSection() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/rahularora"
+                  href="https://www.linkedin.com/in/rahul-26b19a320/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-3 rounded-sm bg-gray-100 dark:bg-[#191a1a] text-[#08090a] dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-500/10 transition-colors relative overflow-hidden"
@@ -85,7 +96,7 @@ export function ContactSection() {
 
             <div className="text-center">
               <p className="inline-block px-4 py-2 text-sm text-[#737373] dark:text-[#A1A1AA] bg-gray-50 dark:bg-[#141414] rounded-sm">
-                💬 I typically respond within 1 hour!
+
               </p>
             </div>
           </div>

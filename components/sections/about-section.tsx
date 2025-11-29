@@ -37,9 +37,9 @@ export function AboutSection() {
               Who I Am
             </h4>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">
-              As a full-stack developer, I&apos;m continuously expanding my toolkit while diving deep into
-              <span className="font-semibold"> Generative AI </span> and
-              <span className="font-semibold"> DevOps</span> practices. Currently pursuing BTech in AI/ML from
+              As a full-stack developer, I specialize in building modern web applications with
+              <span className="font-semibold"> Next.js </span> and
+              <span className="font-semibold"> TypeScript</span>. Currently pursuing BTech in AI/ML from
               Chandigarh, India, I regularly engage in tech conferences and hackathons
               to refine my abilities and connect with fellow innovators.
             </p>

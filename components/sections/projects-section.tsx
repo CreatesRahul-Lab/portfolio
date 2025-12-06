@@ -49,7 +49,7 @@ const projects: Project[] = [
     imageUrl: "/projects/vision-ai.png",
     videoUrl: "",
     tags: ["React", "Node.js", "Gemini AI", "Express"],
-    link: "https://vision-ai-beta.vercel.app/",
+    link: "https://vision-ai-theta.vercel.app/",
     date: "2024",
   },
   {
@@ -60,7 +60,7 @@ const projects: Project[] = [
     imageUrl: "/projects/baatein-chat.png",
     videoUrl: "",
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-    link: "https://baatein-chat.vercel.app/",
+    link: "https://baatchit-seven.vercel.app/",
     date: "2024",
   },
   {
@@ -93,7 +93,7 @@ const projects: Project[] = [
     imageUrl: "/projects/ai-serv.png",
     videoUrl: "",
     tags: ["React", "Node.js", "AI Integration"],
-    link: "https://ai-serv.vercel.app/",
+    link: "https://ai-serv-woad.vercel.app/",
     date: "2024",
   },
   {
@@ -115,7 +115,7 @@ const projects: Project[] = [
     imageUrl: "/projects/skyguard.png",
     videoUrl: "",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
-    link: "https://skyguard-weather.vercel.app/",
+    link: "https://skyguard-dynamic-web.vercel.app/",
     date: "2024",
   },
 ];

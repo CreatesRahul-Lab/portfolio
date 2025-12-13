@@ -30,17 +30,24 @@ export const metadata: Metadata = {
     "Frontend Developer",
     "Backend Developer",
   ],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     title: "Portfolio of Rahul Arora",
     description:
       "Portfolio of Rahul Arora - Software Developer specializing in modern web technologies",
     type: "website",
-    url: "rahularora.com",
+    url: "https://www.iam-rahularora.me/",
     siteName: "Rahul Arora",
     locale: "en_US",
     images: [
       {
-        url: "",
+        url: "https://www.iam-rahularora.me/og-image.png",
         width: 1200,
         height: 630,
         alt: "Rahul Arora - Full Stack Developer",
@@ -52,17 +59,18 @@ export const metadata: Metadata = {
     description:
       "Portfolio of Rahul Arora - Software Developer specializing in modern web technologies",
     card: "summary_large_image",
-    site: "@rahularora",
-    creator: "@rahularora",
+    site: "@CreatesRahul",
+    creator: "@CreatesRahul",
     images: [
       {
-        url: "",
+        url: "https://www.iam-rahularora.me/og-image.png",
         width: 1200,
         height: 630,
         alt: "Rahul Arora - Full Stack Developer",
       },
     ],
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({

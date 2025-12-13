@@ -141,7 +141,7 @@ export function SpotlightCard({
         className="pointer-events-none absolute -inset-px transition-opacity duration-300"
         style={
           {
-            opacity: opacity,
+            opacity: opacity.toString(),
             background: getSpotlightBackground(
               position,
               spotlightSize,
@@ -159,7 +159,7 @@ export function SpotlightCard({
           className="pointer-events-none absolute -inset-px transition-opacity duration-300"
           style={
             {
-              opacity: Number((opacity * 0.7).toFixed(2)),
+              opacity: (opacity * 0.7).toFixed(2),
               background: getSpotlightBackground(
                 secondaryPosition,
                 spotlightSize * 0.8,
@@ -178,7 +178,7 @@ export function SpotlightCard({
           className="pointer-events-none absolute -inset-px blur-xl transition-opacity duration-300"
           style={
             {
-              opacity: Number((opacity * glowOpacity).toFixed(2)),
+              opacity: (opacity * glowOpacity).toFixed(2),
               background: getSpotlightBackground(position, glowSize),
               ["--spotlight-color" as string]: `color-mix(in srgb, var(--gradient-color, ${currentGradientColor}), transparent 15%)`,
             } as React.CSSProperties

@@ -1,0 +1,9 @@
+{
+    "name": "Rahul Arora - Portfolio",
+    "short_name": "Rahul Arora",
+    "description": "Portfolio of Rahul Arora - Full Stack Developer specializing in Next.js and TypeScript",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#0a0a0a"
+}

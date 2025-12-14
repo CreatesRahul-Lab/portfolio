@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio of Rahul Arora",
+  title: "Rahul Arora - Fullstack Developer",
   description:
-    "Portfolio of Rahul Arora - Software Developer specializing in modern web technologies",
+    "Fullstack Developer specializing in modern web technologies. Explore my portfolio showcasing innovative projects and expertise in frontend and backend development.",
   keywords: [
     "Rahul Arora",
     "Rahul",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
   },
   openGraph: {
-    title: "Portfolio of Rahul Arora",
+    title: "Rahul Arora - Fullstack Developer",
     description:
-      "Portfolio of Rahul Arora - Software Developer specializing in modern web technologies",
+      "Fullstack Developer specializing in modern web technologies. Explore my portfolio showcasing innovative projects and expertise in frontend and backend development.",
     type: "website",
     url: "https://www.iam-rahularora.me/",
     siteName: "Rahul Arora",
@@ -48,25 +48,25 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.iam-rahularora.me/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Rahul Arora - Full Stack Developer",
+        width: 1366,
+        height: 768,
+        alt: "Rahul Arora - Fullstack Developer",
       },
     ],
   },
   twitter: {
-    title: "Rahul Arora - Full Stack Developer",
+    title: "Rahul Arora - Fullstack Developer",
     description:
-      "Portfolio of Rahul Arora - Software Developer specializing in modern web technologies",
+      "Fullstack Developer specializing in modern web technologies. Explore my portfolio showcasing innovative projects and expertise in frontend and backend development.",
     card: "summary_large_image",
     site: "@CreatesRahul",
     creator: "@CreatesRahul",
     images: [
       {
         url: "https://www.iam-rahularora.me/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Rahul Arora - Full Stack Developer",
+        width: 1366,
+        height: 768,
+        alt: "Rahul Arora - Fullstack Developer",
       },
     ],
   },

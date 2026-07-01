@@ -14,6 +14,32 @@ const experiences = [
     companyLink: "https://infyspringboard.onwingspan.com/",
     link: "https://infyspringboard.onwingspan.com/",
     position: "Project Intern",
+    duration: "Sep 2026 - Oct 2026 · 3 mos",
+    description: [
+      "Currently participating in a project-based internship in the field of Artificial Intelligence.",
+      "Gaining hands-on experience and enhancing skills in AI domain.",
+      "Working on real-world AI projects and applications."
+    ],
+    technologies: ["Python", "Artificial Intelligence (AI)", "Machine Learning"],
+  },
+  {
+    company: "Vichranshala IIT Ropar",
+    companyLink: "https://samagama.in/internship",
+    link: "https://samagama.in/internship",
+    position: "Project Intern",
+    duration: "May 2026 - July 2026 · 3 mos",
+    description: [
+      "Currently participating in a project-based internship in the field of Artificial Intelligence.",
+      "Gaining hands-on experience and enhancing skills in AI domain.",
+      "Working on real-world AI projects and applications."
+    ],
+    technologies: ["Python", "Artificial Intelligence (AI)", "Machine Learning"],
+  },
+  {
+    company: "Infosys Springboard",
+    companyLink: "https://infyspringboard.onwingspan.com/",
+    link: "https://infyspringboard.onwingspan.com/",
+    position: "Project Intern",
     duration: "Dec 2024 - Feb 2025 · 3 mos",
     description: [
       "Currently participating in a project-based internship in the field of Artificial Intelligence.",

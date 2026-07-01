@@ -67,7 +67,7 @@ export function AboutSection() {
           <div className="space-y-4">
             <h4 className="text-lg font-medium text-[#08090a] dark:text-white flex items-center gap-2">
               <span className="h-1 w-1 rounded-full bg-gray-900 dark:bg-emerald-500"></span>
-              Beyond Coding, i like football
+              Beyond Coding,
             </h4>
             <p className="text-sm text-[#737373] dark:text-[#A1A1AA] leading-relaxed">
               When I&apos;m not coding, you&apos;ll find me <span className="font-medium">watching films, exploring emerging tech, and diving into books</span>.
